@@ -145,12 +145,16 @@
 
   <ItemGroup>
     <ClCompile Include="Json.cpp" />
+    <ClCompile Include="JsonDemo.cpp" />
     <ClCompile Include="RecordStore.cpp" />
+    <ClCompile Include="Cli.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Json.h" />
+    <ClInclude Include="JsonDemo.h" />
     <ClInclude Include="RecordStore.h" />
+    <ClInclude Include="Cli.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
