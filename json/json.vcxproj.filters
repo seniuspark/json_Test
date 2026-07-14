@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="소스 파일">
@@ -18,7 +18,13 @@
     <ClCompile Include="Json.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="JsonDemo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="RecordStore.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Cli.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
@@ -29,7 +35,13 @@
     <ClInclude Include="Json.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="JsonDemo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
     <ClInclude Include="RecordStore.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Cli.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
