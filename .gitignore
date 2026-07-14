@@ -1,0 +1,15 @@
+# Visual Studio
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.obj
+*.pdb
+*.ilk
+*.log
+*.vcxproj.user
+
+# 실행 시 생성되는 데이터 파일
+data.json
+data.json.bak
